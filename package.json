@@ -1,0 +1,23 @@
+{
+  "name": "lamda",
+  "version": "1.0.0",
+  "description": "`sls deploy`",
+  "main": "create.js",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aplchian/node-lamda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aplchian/node-lamda/issues"
+  },
+  "homepage": "https://github.com/aplchian/node-lamda#readme"
+}

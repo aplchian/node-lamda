@@ -1,4 +1,8 @@
-module.exports.run = (event, context, callback) => {
-    console.log('I am a debug statement')
-    callback(null, "Hellow World")
+module.exports.run = async (event) => {
+    return {
+        statusCode: 200,
+        body: JSON.stringify({
+            message: "hello world"
+        })
+    }
 }
